@@ -11,6 +11,23 @@
 		5C6BC52C262CC4F1008EAF6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC52B262CC4F1008EAF6C /* ContentView.swift */; };
 		5C6BC52E262CC4F8008EAF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6BC52D262CC4F8008EAF6C /* Assets.xcassets */; };
 		5C6BC531262CC4F8008EAF6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6BC530262CC4F8008EAF6C /* Preview Assets.xcassets */; };
+		5C6BC539262CD446008EAF6C /* WhatDoYouHave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC538262CD446008EAF6C /* WhatDoYouHave.swift */; };
+		5C6BC53B262CD45C008EAF6C /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC53A262CD45C008EAF6C /* Ingredients.swift */; };
+		5C6BC55A262E448F008EAF6C /* ListOfIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC559262E448F008EAF6C /* ListOfIngredients.swift */; };
+		5C6BC55C262E44A7008EAF6C /* Spices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC55B262E44A7008EAF6C /* Spices.swift */; };
+		5C6BC55E262E44BD008EAF6C /* ListOfSpices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC55D262E44BD008EAF6C /* ListOfSpices.swift */; };
+		5C6BC560262E44DB008EAF6C /* KitchenTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC55F262E44DB008EAF6C /* KitchenTools.swift */; };
+		5C6BC562262E44EF008EAF6C /* ListOfKitchenTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC561262E44EF008EAF6C /* ListOfKitchenTools.swift */; };
+		5C6BC564262E4537008EAF6C /* WhatAreYouInTheMoodFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC563262E4537008EAF6C /* WhatAreYouInTheMoodFor.swift */; };
+		5C6BC566262E4CDC008EAF6C /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC565262E4CDC008EAF6C /* Diet.swift */; };
+		5C6BC568262E4CFA008EAF6C /* GlutenDiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC567262E4CFA008EAF6C /* GlutenDiet.swift */; };
+		5C6BC56A262E4D16008EAF6C /* SodiumDiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC569262E4D16008EAF6C /* SodiumDiet.swift */; };
+		5C6BC56C262E4D33008EAF6C /* VeganDiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC56B262E4D33008EAF6C /* VeganDiet.swift */; };
+		5C6BC56E262E4D47008EAF6C /* Whole30Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC56D262E4D47008EAF6C /* Whole30Diet.swift */; };
+		5C6BC570262E4D59008EAF6C /* Ethnicity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC56F262E4D59008EAF6C /* Ethnicity.swift */; };
+		5C6BC572262E4D6F008EAF6C /* American.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC571262E4D6F008EAF6C /* American.swift */; };
+		5C6BC574262E4D9B008EAF6C /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC573262E4D9B008EAF6C /* Recipes.swift */; };
+		5C6BC578262F38EB008EAF6C /* RecipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC577262F38EB008EAF6C /* RecipeFeedback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +37,23 @@
 		5C6BC52D262CC4F8008EAF6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C6BC530262CC4F8008EAF6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C6BC532262CC4F8008EAF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6BC538262CD446008EAF6C /* WhatDoYouHave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoYouHave.swift; sourceTree = "<group>"; };
+		5C6BC53A262CD45C008EAF6C /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		5C6BC559262E448F008EAF6C /* ListOfIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfIngredients.swift; sourceTree = "<group>"; };
+		5C6BC55B262E44A7008EAF6C /* Spices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spices.swift; sourceTree = "<group>"; };
+		5C6BC55D262E44BD008EAF6C /* ListOfSpices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfSpices.swift; sourceTree = "<group>"; };
+		5C6BC55F262E44DB008EAF6C /* KitchenTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenTools.swift; sourceTree = "<group>"; };
+		5C6BC561262E44EF008EAF6C /* ListOfKitchenTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfKitchenTools.swift; sourceTree = "<group>"; };
+		5C6BC563262E4537008EAF6C /* WhatAreYouInTheMoodFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatAreYouInTheMoodFor.swift; sourceTree = "<group>"; };
+		5C6BC565262E4CDC008EAF6C /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
+		5C6BC567262E4CFA008EAF6C /* GlutenDiet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenDiet.swift; sourceTree = "<group>"; };
+		5C6BC569262E4D16008EAF6C /* SodiumDiet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodiumDiet.swift; sourceTree = "<group>"; };
+		5C6BC56B262E4D33008EAF6C /* VeganDiet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganDiet.swift; sourceTree = "<group>"; };
+		5C6BC56D262E4D47008EAF6C /* Whole30Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whole30Diet.swift; sourceTree = "<group>"; };
+		5C6BC56F262E4D59008EAF6C /* Ethnicity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethnicity.swift; sourceTree = "<group>"; };
+		5C6BC571262E4D6F008EAF6C /* American.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American.swift; sourceTree = "<group>"; };
+		5C6BC573262E4D9B008EAF6C /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		5C6BC577262F38EB008EAF6C /* RecipeFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeedback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,23 @@
 			children = (
 				5C6BC529262CC4F1008EAF6C /* Team7App.swift */,
 				5C6BC52B262CC4F1008EAF6C /* ContentView.swift */,
+				5C6BC538262CD446008EAF6C /* WhatDoYouHave.swift */,
+				5C6BC53A262CD45C008EAF6C /* Ingredients.swift */,
+				5C6BC559262E448F008EAF6C /* ListOfIngredients.swift */,
+				5C6BC55B262E44A7008EAF6C /* Spices.swift */,
+				5C6BC55D262E44BD008EAF6C /* ListOfSpices.swift */,
+				5C6BC55F262E44DB008EAF6C /* KitchenTools.swift */,
+				5C6BC561262E44EF008EAF6C /* ListOfKitchenTools.swift */,
+				5C6BC563262E4537008EAF6C /* WhatAreYouInTheMoodFor.swift */,
+				5C6BC565262E4CDC008EAF6C /* Diet.swift */,
+				5C6BC56B262E4D33008EAF6C /* VeganDiet.swift */,
+				5C6BC569262E4D16008EAF6C /* SodiumDiet.swift */,
+				5C6BC56D262E4D47008EAF6C /* Whole30Diet.swift */,
+				5C6BC567262E4CFA008EAF6C /* GlutenDiet.swift */,
+				5C6BC56F262E4D59008EAF6C /* Ethnicity.swift */,
+				5C6BC571262E4D6F008EAF6C /* American.swift */,
+				5C6BC573262E4D9B008EAF6C /* Recipes.swift */,
+				5C6BC577262F38EB008EAF6C /* RecipeFeedback.swift */,
 				5C6BC52D262CC4F8008EAF6C /* Assets.xcassets */,
 				5C6BC532262CC4F8008EAF6C /* Info.plist */,
 				5C6BC52F262CC4F8008EAF6C /* Preview Content */,
@@ -138,8 +189,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6BC578262F38EB008EAF6C /* RecipeFeedback.swift in Sources */,
+				5C6BC55C262E44A7008EAF6C /* Spices.swift in Sources */,
+				5C6BC53B262CD45C008EAF6C /* Ingredients.swift in Sources */,
+				5C6BC566262E4CDC008EAF6C /* Diet.swift in Sources */,
 				5C6BC52C262CC4F1008EAF6C /* ContentView.swift in Sources */,
+				5C6BC568262E4CFA008EAF6C /* GlutenDiet.swift in Sources */,
+				5C6BC55E262E44BD008EAF6C /* ListOfSpices.swift in Sources */,
+				5C6BC560262E44DB008EAF6C /* KitchenTools.swift in Sources */,
+				5C6BC574262E4D9B008EAF6C /* Recipes.swift in Sources */,
+				5C6BC56C262E4D33008EAF6C /* VeganDiet.swift in Sources */,
+				5C6BC539262CD446008EAF6C /* WhatDoYouHave.swift in Sources */,
+				5C6BC572262E4D6F008EAF6C /* American.swift in Sources */,
+				5C6BC56E262E4D47008EAF6C /* Whole30Diet.swift in Sources */,
+				5C6BC56A262E4D16008EAF6C /* SodiumDiet.swift in Sources */,
+				5C6BC570262E4D59008EAF6C /* Ethnicity.swift in Sources */,
+				5C6BC562262E44EF008EAF6C /* ListOfKitchenTools.swift in Sources */,
 				5C6BC52A262CC4F1008EAF6C /* Team7App.swift in Sources */,
+				5C6BC564262E4537008EAF6C /* WhatAreYouInTheMoodFor.swift in Sources */,
+				5C6BC55A262E448F008EAF6C /* ListOfIngredients.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
