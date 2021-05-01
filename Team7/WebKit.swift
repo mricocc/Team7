@@ -9,13 +9,14 @@ import SwiftUI
 import AppDevWithSwiftLibrary
 
 struct WebKit: View {
+    var recipe = Recipe(recipeURL: URL(string:"https://www.apple.com")!)
     var body: some View {
-        SwiftUIWebView(url: URL(string: "https://www.apple.com"))
+        SwiftUIWebView(url: recipe.recipeURL)
     }
 }
 
-struct WebKit_Previews: PreviewProvider {
-    static var previews: some View {
-        WebKit()
-    }
-}
+//struct WebKit_Previews: PreviewProvider {
+//    static var previews: some View {
+//        WebKit()
+//    }
+//}

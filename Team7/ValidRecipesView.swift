@@ -13,7 +13,9 @@ struct ValidRecipesView: View {
     var body: some View {
         List {
             ForEach(validRecipes, id:\.self) { recipe in
-                Text(recipe.name)
+                NavigationLink(destination: WebKit(recipe: recipe), label: {
+                    Text(recipe.name)
+                })
             }
         }.onAppear {
             var chosenIngredients = [Ingredient]()
