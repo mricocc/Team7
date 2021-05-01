@@ -14,12 +14,18 @@ struct Ethnicity: View {
                 destination: American(),
                 label:{
                     Text("American")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.orange)
                 })
                 .padding()
             NavigationLink(
                 destination: American(),
                 label:{
                     Text("Mexican")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.orange)
                 })
         }
     }

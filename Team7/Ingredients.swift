@@ -15,6 +15,10 @@ struct Ingredients: View {
                 destination: ListOfIngredients(),
                 label:{
                     Text("Select your Ingredients")
+                        .fontWeight(.semibold)
+                        .foregroundColor(.orange)
+                        .font(.system(size: 30))
+                        
                 })
         }
     }

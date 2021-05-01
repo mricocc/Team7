@@ -14,6 +14,9 @@ struct Spices: View {
                 destination: ListOfSpices(),
                 label:{
                     Text("Select your Spices")
+                        .fontWeight(.semibold)
+                        .foregroundColor(.orange)
+                        .font(.system(size: 30))
                 })
         }
     }
@@ -24,3 +27,4 @@ struct Spices_Previews: PreviewProvider {
         Spices()
     }
 }
+

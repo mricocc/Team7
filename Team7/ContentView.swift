@@ -7,17 +7,30 @@
 
 import SwiftUI
 
+//struct
+
 struct ContentView: View {
+
+    
     var body: some View {
         NavigationView {
             VStack{
                 NavigationLink(
                     destination: WhatDoYouHave(),
                     label:{
-                        Text("Voila")
-                    })
+                        /*ZStack{
+                            Color.black
+                               .edgesIgnoringSafeArea(.all)*/
+                            Text("Voilà")
+                                .foregroundColor(.orange)
+                                .font(.system(size: 60))
+                                .bold()
+                                .padding()
+                    //}
+                })
             }
         }
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
 
@@ -26,5 +39,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
 
 

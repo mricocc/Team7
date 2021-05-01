@@ -14,24 +14,36 @@ struct Diet: View {
                 destination: VeganDiet(),
                 label:{
                     Text("Vegan")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.orange)
                 })
                 .padding()
             NavigationLink(
                 destination: SodiumDiet(),
                 label:{
                     Text("Sodium")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.orange)
                 })
                 .padding()
             NavigationLink(
                 destination: Whole30Diet(),
                 label:{
                     Text("Whole 30")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.orange)
                 })
                 .padding()
             NavigationLink(
                 destination: GlutenDiet(),
                 label:{
                     Text("Gluten")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.orange)
                 })
             
         }

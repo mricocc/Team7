@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,11 @@
 		5C6BC572262E4D6F008EAF6C /* American.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC571262E4D6F008EAF6C /* American.swift */; };
 		5C6BC574262E4D9B008EAF6C /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC573262E4D9B008EAF6C /* Recipes.swift */; };
 		5C6BC578262F38EB008EAF6C /* RecipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC577262F38EB008EAF6C /* RecipeFeedback.swift */; };
+		5C6BC57A2634C713008EAF6C /* MultipleSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BC5792634C712008EAF6C /* MultipleSelectionRow.swift */; };
+		5C8786EC2638C2A70040EFA4 /* AppDevWithSwiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 5C8786EB2638C2A70040EFA4 /* AppDevWithSwiftLibrary */; };
+		5C8786EE2638C31B0040EFA4 /* WebKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8786ED2638C31B0040EFA4 /* WebKit.swift */; };
+		5C8786F02638E4530040EFA4 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8786EF2638E4530040EFA4 /* Mood.swift */; };
+		5C87870F263DE48A0040EFA4 /* ValidRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C87870E263DE4850040EFA4 /* ValidRecipesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,10 @@
 		5C6BC571262E4D6F008EAF6C /* American.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American.swift; sourceTree = "<group>"; };
 		5C6BC573262E4D9B008EAF6C /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 		5C6BC577262F38EB008EAF6C /* RecipeFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeedback.swift; sourceTree = "<group>"; };
+		5C6BC5792634C712008EAF6C /* MultipleSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionRow.swift; sourceTree = "<group>"; };
+		5C8786ED2638C31B0040EFA4 /* WebKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKit.swift; sourceTree = "<group>"; };
+		5C8786EF2638E4530040EFA4 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		5C87870E263DE4850040EFA4 /* ValidRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidRecipesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8786EC2638C2A70040EFA4 /* AppDevWithSwiftLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,11 +101,14 @@
 				5C6BC538262CD446008EAF6C /* WhatDoYouHave.swift */,
 				5C6BC53A262CD45C008EAF6C /* Ingredients.swift */,
 				5C6BC559262E448F008EAF6C /* ListOfIngredients.swift */,
-				5C6BC55B262E44A7008EAF6C /* Spices.swift */,
+				5C87870E263DE4850040EFA4 /* ValidRecipesView.swift */,
 				5C6BC55D262E44BD008EAF6C /* ListOfSpices.swift */,
+				5C6BC55B262E44A7008EAF6C /* Spices.swift */,
+				5C6BC5792634C712008EAF6C /* MultipleSelectionRow.swift */,
 				5C6BC55F262E44DB008EAF6C /* KitchenTools.swift */,
 				5C6BC561262E44EF008EAF6C /* ListOfKitchenTools.swift */,
 				5C6BC563262E4537008EAF6C /* WhatAreYouInTheMoodFor.swift */,
+				5C8786EF2638E4530040EFA4 /* Mood.swift */,
 				5C6BC565262E4CDC008EAF6C /* Diet.swift */,
 				5C6BC56B262E4D33008EAF6C /* VeganDiet.swift */,
 				5C6BC569262E4D16008EAF6C /* SodiumDiet.swift */,
@@ -105,6 +118,7 @@
 				5C6BC571262E4D6F008EAF6C /* American.swift */,
 				5C6BC573262E4D9B008EAF6C /* Recipes.swift */,
 				5C6BC577262F38EB008EAF6C /* RecipeFeedback.swift */,
+				5C8786ED2638C31B0040EFA4 /* WebKit.swift */,
 				5C6BC52D262CC4F8008EAF6C /* Assets.xcassets */,
 				5C6BC532262CC4F8008EAF6C /* Info.plist */,
 				5C6BC52F262CC4F8008EAF6C /* Preview Content */,
@@ -136,6 +150,9 @@
 			dependencies = (
 			);
 			name = Team7;
+			packageProductDependencies = (
+				5C8786EB2638C2A70040EFA4 /* AppDevWithSwiftLibrary */,
+			);
 			productName = Team7;
 			productReference = 5C6BC526262CC4F1008EAF6C /* Team7.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +180,9 @@
 				Base,
 			);
 			mainGroup = 5C6BC51D262CC4F1008EAF6C;
+			packageReferences = (
+				5C8786EA2638C2A70040EFA4 /* XCRemoteSwiftPackageReference "AppDevWithSwiftLibrary" */,
+			);
 			productRefGroup = 5C6BC527262CC4F1008EAF6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,6 +212,7 @@
 				5C6BC578262F38EB008EAF6C /* RecipeFeedback.swift in Sources */,
 				5C6BC55C262E44A7008EAF6C /* Spices.swift in Sources */,
 				5C6BC53B262CD45C008EAF6C /* Ingredients.swift in Sources */,
+				5C6BC57A2634C713008EAF6C /* MultipleSelectionRow.swift in Sources */,
 				5C6BC566262E4CDC008EAF6C /* Diet.swift in Sources */,
 				5C6BC52C262CC4F1008EAF6C /* ContentView.swift in Sources */,
 				5C6BC568262E4CFA008EAF6C /* GlutenDiet.swift in Sources */,
@@ -202,10 +223,13 @@
 				5C6BC539262CD446008EAF6C /* WhatDoYouHave.swift in Sources */,
 				5C6BC572262E4D6F008EAF6C /* American.swift in Sources */,
 				5C6BC56E262E4D47008EAF6C /* Whole30Diet.swift in Sources */,
+				5C87870F263DE48A0040EFA4 /* ValidRecipesView.swift in Sources */,
+				5C8786F02638E4530040EFA4 /* Mood.swift in Sources */,
 				5C6BC56A262E4D16008EAF6C /* SodiumDiet.swift in Sources */,
 				5C6BC570262E4D59008EAF6C /* Ethnicity.swift in Sources */,
 				5C6BC562262E44EF008EAF6C /* ListOfKitchenTools.swift in Sources */,
 				5C6BC52A262CC4F1008EAF6C /* Team7App.swift in Sources */,
+				5C8786EE2638C31B0040EFA4 /* WebKit.swift in Sources */,
 				5C6BC564262E4537008EAF6C /* WhatAreYouInTheMoodFor.swift in Sources */,
 				5C6BC55A262E448F008EAF6C /* ListOfIngredients.swift in Sources */,
 			);
@@ -396,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C8786EA2638C2A70040EFA4 /* XCRemoteSwiftPackageReference "AppDevWithSwiftLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iitgrad/AppDevWithSwiftLibrary.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C8786EB2638C2A70040EFA4 /* AppDevWithSwiftLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C8786EA2638C2A70040EFA4 /* XCRemoteSwiftPackageReference "AppDevWithSwiftLibrary" */;
+			productName = AppDevWithSwiftLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C6BC51E262CC4F1008EAF6C /* Project object */;
 }
