@@ -12,12 +12,18 @@ struct ValidRecipesView: View {
     @State private var validRecipes = [Recipe]()
     var body: some View {
         List {
-            ForEach(validRecipes, id:\.self) { recipe in
-                NavigationLink(destination: WebKit(recipe: recipe), label: {
-                    Text(recipe.name)
+            if validRecipes.count > 0 {
+                ForEach(validRecipes, id:\.self) { recipe in
+                    NavigationLink(destination: WebKit(recipe: recipe), label: {
+                        Text(recipe.name)
                 })
+                }
+            } else{
+                Text("Sorry, no receipes found!")
+            
             }
         }.onAppear {
+            validRecipes.removeAll()
             var chosenIngredients = [Ingredient]()
             for i in 0..<isIncluded.count {
                 if isIncluded[i] {

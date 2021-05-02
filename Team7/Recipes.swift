@@ -38,9 +38,13 @@ var grillCheeseSandwhich = Recipe(name: "Grilled Cheese Sandwich", ingredients: 
 
 var bltSandwhich = Recipe(name: "BLT", ingredients: [Ingredient( name: "Bread"), Ingredient( name: "Bacon"), Ingredient(name: "Lettuce")], /*spices: [Spice(name: "Salt", barcode: "ss")],*/ recipeText: "bla, bla, bla", recipeURL: URL(string: "https://www.allrecipes.com")!)
 
+var hamAndCheeseSandwhich = Recipe(name: "Ham and Cheese Sandwhich", ingredients: [Ingredient( name: "Bread"), Ingredient( name: "Ham"), Ingredient(name: "Cheese")], /*spices: [Spice(name: "Salt", barcode: "ss")],*/ recipeText: "bla, bla, bla", recipeURL: URL(string: "https://www.delish.com/cooking/recipe-ideas/a26870550/ham-and-cheese-sandwich-recipe/")!)
+
 var quesadilla = Recipe(ingredients: [Ingredient( name: "Cheese", barcode: "ic"), Ingredient(name: "Tortilla", barcode: "il")], /*spices: [Spice(name: "Salt", barcode: "ss")],*/ recipeText: "bla, bla, bla", recipeURL: URL(string: "https://www.simplyrecipes.com/recipes/quesadilla/")!)
 
 var chickenQuesadilla = Recipe(ingredients: [Ingredient(name: "Chicken", barcode: "icm"), Ingredient(name: "Cheese", barcode: "ic")], /*spices: [Spice(name: "Salt", barcode: "ss")],*/ recipeText: "Chicken Quesadilla", recipeURL: URL(string: "https://www.simplyrecipes.com/recipes/quesadilla/")!)
+
+
 
 var recipes = [grillCheeseSandwhich,bltSandwhich,quesadilla,chickenQuesadilla]
 
