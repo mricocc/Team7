@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ValidRecipesView: View {
-    var isIncluded = [Bool]()
+    var ingredientIsIncluded = [Bool]()
+    var spiceIsIncluded = [Bool]()
     @State private var validRecipes = [Recipe]()
+    @State private var validRecipesForSpices = [Recipe]()
+    
     var body: some View {
         List {
             if validRecipes.count > 0 {
@@ -24,19 +27,38 @@ struct ValidRecipesView: View {
             }
         }.onAppear {
             validRecipes.removeAll()
+            validRecipesForSpices.removeAll()            //validRecipesForSpices = [Recipe]()
             var chosenIngredients = [Ingredient]()
-            for i in 0..<isIncluded.count {
-                if isIncluded[i] {
+            var chosenSpices = [Spice]()
+            
+            for i in 0..<ingredientIsIncluded.count {
+                if ingredientIsIncluded[i] {
                     chosenIngredients.append(ingredients[i])
                 }
             }
+            for i in 0..<spiceIsIncluded.count {
+                if spiceIsIncluded[i] {
+                    chosenSpices.append(spices[i])
+                }
+            }
             let setOfChosenIngredients = Set(chosenIngredients)
+            let setOfChosenSpices = Set(chosenSpices)
             
             for i in 0..<recipes.count{
                 let setOfIngredientsInRecipe = Set(recipes[i].ingredients)
-                if setOfIngredientsInRecipe.isSubset(of: setOfChosenIngredients){
+                let setOfSpicesInRecipe = Set(recipes[i].spices)
+              
+                if setOfIngredientsInRecipe.isSubset(of: setOfChosenIngredients) {
                     validRecipes.append(recipes[i])
                 }
+                if setOfSpicesInRecipe.isSubset(of: setOfChosenSpices) {
+                    validRecipesForSpices.append(recipes[i])
+                }
+                let result = Set(validRecipes).intersection(Set(validRecipesForSpices))
+                print(validRecipes)
+                print(validRecipesForSpices)
+                print(result)
+                validRecipes = Array(result)
             }
         }
     }

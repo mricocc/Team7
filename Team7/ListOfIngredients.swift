@@ -15,12 +15,19 @@ var ingredients = [Ingredient(name: "Apples"),
                    Ingredient(name: "Bacon"),
                    Ingredient(name: "Beets"),
                    Ingredient(name: "Bell Peppers"),
+                   Ingredient(name: "Black Beans"),
                    Ingredient(name: "Bread"),
+                   Ingredient(name: "Brccoli"),
                    Ingredient(name: "Brussels Sprouts"),
                    Ingredient(name: "Cabbage"),
                    Ingredient(name: "Cane Berries"),
                    Ingredient(name: "Carrots"),
+                   Ingredient(name: "Cauliflower"),
                    Ingredient(name: "Cheese"),
+                   Ingredient(name: "Chicken"),
+                   Ingredient(name: "Chicken Broth"),
+                   Ingredient(name: "Chickpeas"),
+                   Ingredient(name: "Corn"),
                    Ingredient(name: "Eggplant"),
                    Ingredient(name: "Eggs"),
                    Ingredient(name: "Garlic"),
@@ -35,6 +42,7 @@ var ingredients = [Ingredient(name: "Apples"),
                    Ingredient(name: "Kiwi"),
                    Ingredient(name: "Leafy Greens"),
                    Ingredient(name: "Leeks"),
+                   Ingredient(name: "Lemons"),
                    Ingredient(name: "Lettuce"),
                    Ingredient(name: "Lentils"),
                    Ingredient(name: "Mangos"),
@@ -46,6 +54,7 @@ var ingredients = [Ingredient(name: "Apples"),
                    Ingredient(name: "Oranges"),
                    Ingredient(name: "Parsnips"),
                    Ingredient(name: "Peaches"),
+                   Ingredient(name: "Peanut Butter"),
                    Ingredient(name: "Pears"),
                    Ingredient(name: "Peas"),
                    Ingredient(name: "Pineapple"),
@@ -57,6 +66,7 @@ var ingredients = [Ingredient(name: "Apples"),
                    Ingredient(name: "Rice"),
                    Ingredient(name: "Salad Greens"),
                    Ingredient(name: "Salmon"),
+                   Ingredient(name: "Salsa"),
                    Ingredient(name: "Spinach"),
                    Ingredient(name: "Split Peas"),
                    Ingredient(name: "Strawberries"),
@@ -129,10 +139,16 @@ struct ListOfIngredients: View {
                     Text("Kitchen Tools")
                 })*/
 //            }
-            NavigationLink(destination: ValidRecipesView(isIncluded: isIncluded),
+//            NavigationLink(destination: ValidRecipesView(isIncluded: isIncluded),
+//                           label: {
+//                            Text("Find Recipes")
+//                           })
+//                .padding()
+            NavigationLink(destination: ListOfSpices(ingredientIsIncluded: isIncluded),
                            label: {
-                            Text("Find Recipes")
+                            Text("Select Spices")
                            })
+                .padding()
         }
     }
 }

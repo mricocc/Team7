@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             VStack{
                 NavigationLink(
-                    destination: WhatDoYouHave(),
+                    destination: ListOfIngredients(),
                     label:{
                         /*ZStack{
                             Color.black
@@ -30,7 +30,7 @@ struct ContentView: View {
                 })
             }
         }
-        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+       // .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
 
