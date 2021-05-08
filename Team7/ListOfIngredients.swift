@@ -110,6 +110,7 @@ struct ListOfIngredients: View {
                         })
                     }
                 }
+                .navigationTitle("Select the Ingredients")
                /* ForEach(ingredients, id: \.self){ ingredient in
                     Button(action: {
                         isOrange.toggle()

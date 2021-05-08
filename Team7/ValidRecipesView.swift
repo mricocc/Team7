@@ -54,13 +54,16 @@ struct ValidRecipesView: View {
                 if setOfSpicesInRecipe.isSubset(of: setOfChosenSpices) {
                     validRecipesForSpices.append(recipes[i])
                 }
-                let result = Set(validRecipes).intersection(Set(validRecipesForSpices))
-                print(validRecipes)
-                print(validRecipesForSpices)
-                print(result)
-                validRecipes = Array(result)
+                
             }
+            let result = Set(validRecipes).intersection(Set(validRecipesForSpices))
+            print(validRecipes)
+            print(validRecipesForSpices)
+            print(result)
+            validRecipes = Array(result)
         }
+        .navigationTitle("Available Recipes")
+        .foregroundColor(.orange)
     }
 }
 
